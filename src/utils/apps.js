@@ -48,13 +48,6 @@ var apps = [{
   action: 'MSEDGE'
 },
 {
-  name: 'Buy me a coffee',
-  icon: 'buyme',
-  type: 'app',
-  action: 'EXTERNAL',
-  payload: 'https://www.buymeacoffee.com/blueedgetechno'
-},
-{
   name: 'Store',
   icon: 'store',
   type: 'app',
@@ -124,13 +117,7 @@ var apps = [{
   icon: 'yammer',
   type: 'app'
 },
-{
-  name: 'Mail',
-  icon: 'mail',
-  type: 'app',
-  action: 'EXTERNAL',
-  payload: 'mailto:blueedgetechno@gmail.com'
-},
+
 {
   name: 'Movies',
   icon: 'movies',
@@ -285,19 +272,6 @@ var apps = [{
   type: 'app',
   action: 'EXTERNAL',
   payload: 'https://github.com/blueedgetechno/win11React'
-},
-{
-  name: 'Unescape',
-  icon: 'unescape',
-  type: 'action',
-  action: 'EXTERNAL',
-  payload: 'https://blueedge.me/unescape'
-},
-{
-  name: 'Discord',
-  icon: 'discord',
-  type: 'app',
-  action: 'DISCORD',
 }]
 
 for (var i = 0; i < installed.length; i++) {
