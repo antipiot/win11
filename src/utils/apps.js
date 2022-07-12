@@ -90,43 +90,11 @@ var apps = [{
   type: 'app'
 },
 {
-  name: 'Feedback',
-  icon: 'feedback',
-  type: 'app'
-},
-{
-  name: 'Get Started',
-  icon: 'getstarted',
-  type: 'app',
-  action: 'OOBE'
-},
-{
-  name: 'Groove Music',
-  icon: 'groove',
-  type: 'app'
-},
-{
   name: 'Help',
   icon: 'help',
   type: 'app',
   action: 'EXTERNAL',
-  payload: 'https://win11react-docs.andrewstech.me/'
-},
-{
-  name: 'Yammer',
-  icon: 'yammer',
-  type: 'app'
-},
-
-{
-  name: 'Movies',
-  icon: 'movies',
-  type: 'app'
-},
-{
-  name: 'Xbox',
-  icon: 'xbox',
-  type: 'app'
+  payload: 'https://async-it.ch/support'
 },
 {
   name: 'Office',
@@ -180,22 +148,9 @@ var apps = [{
   type: 'app'
 },
 {
-  name: 'Pinterest',
-  icon: 'pinterest',
-  type: 'app',
-  action: 'EXTERNAL',
-  payload: 'https://www.pinterest.com/blueedgetechno/'
-},
-{
   name: 'Security',
   icon: 'security',
   type: 'app'
-},
-{
-  name: 'Spotify',
-  icon: 'spotify',
-  type: 'app',
-  action: 'SPOTIFY'
 },
 {
   name: 'Share',
@@ -211,13 +166,6 @@ var apps = [{
   name: 'Snipping Tool',
   icon: 'snip',
   type: 'app'
-},
-{
-  name: 'Twitter',
-  icon: 'twitter',
-  type: 'app',
-  action: 'EXTERNAL',
-  payload: 'https://twitter.com/blueedgetechno'
 },
 {
   name: 'Teams',
@@ -260,18 +208,6 @@ var apps = [{
   icon: 'board',
   type: 'app',
   action: 'WHITEBOARD'
-},
-{
-  name: 'Cortana',
-  icon: 'cortana',
-  type: 'app'
-},
-{
-  name: 'Github',
-  icon: 'github',
-  type: 'app',
-  action: 'EXTERNAL',
-  payload: 'https://github.com/blueedgetechno/win11React'
 }]
 
 for (var i = 0; i < installed.length; i++) {
